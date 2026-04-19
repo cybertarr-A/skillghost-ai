@@ -1,0 +1,24 @@
+{
+  "cybertarr": {
+    "mistakes": [
+      "scalability",
+      "security",
+      "scalability",
+      "security",
+      "scalability",
+      "security",
+      "scalability",
+      "security",
+      "architecture",
+      "scalability",
+      "security"
+    ],
+    "history": [
+      "Mistakes:\n- Sessions in memory are not persistent across restarts\n- In-memory storage is not scalable\n- Lack of security measures against session tampering\nMissing:\n- User authentication protocols (e.g. OAuth, OpenID)\n- Password hashing and salting\n- Session expiration and revocation mechanisms\nExpert Fix:\nUse a secure, distributed storage solution (e.g. Redis) with proper encryption, and implement authentication protocols with password hashing and salting.\nSkill Gap:\nInadequate understanding of scalability, security, and persistence in authentication system design.",
+      "Mistakes:\n- Sessions in memory are not scalable and will be lost in case of restart or failure.\n- In-memory storage is not secure for sensitive user data.\n- No handling for session expiration or revocation.\nMissing:\n- User authentication protocol (e.g. OAuth, OpenID)\n- Password hashing and salting\n- Secure cookie or token management\nExpert Fix:\nUse a distributed and persistent storage solution (e.g. Redis, database) with proper encryption and implement a standard authentication protocol.\nSkill Gap:\nLack of understanding of scalability, security, and authentication best practices.",
+      "Mistakes:\n- Sessions in memory are not scalable\n- Sessions in memory are not persistent across restarts\n- Sessions in memory are vulnerable to data loss\nMissing:\n- Database integration for user storage\n- Encryption for secure password storage\n- Load balancing for distributed systems\nExpert Fix:\nUse a database to store user credentials and session IDs, and implement encryption for secure password storage.\nSkill Gap:\nLack of understanding of distributed systems and scalability principles.",
+      "Mistakes:\n- Sessions in memory are not scalable and will be lost on restart.\n- In-memory storage is not secure for sensitive data.\n- No consideration for distributed systems.\nMissing:\n- Load balancing and clustering support.\n- Session expiration and renewal mechanism.\n- User authentication protocol (e.g. OAuth, OpenID).\nExpert Fix:\nUse a distributed, persistent, and secure storage solution like Redis or a database to store sessions, and implement a standardized authentication protocol.\nSkill Gap:\nLack of understanding of distributed systems, scalability, and security best practices in designing authentication systems.",
+      "Mistakes:\n- Sessions in memory are not scalable\n- In-memory storage is volatile, causing session loss on restart\n- Lack of security measures for session data\nMissing:\n- User authentication protocols (e.g. OAuth, OpenID)\n- Session persistence mechanisms (e.g. database, redis)\n- Access control and authorization\nExpert Fix:\nUse a distributed session store like Redis, and implement authentication protocols with secure password storage and access control.\nSkill Gap:\nInadequate understanding of distributed systems, security, and scalability principles."
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "senior_python_dev": {
+    "name": "Senior Python Developer",
+    "thinking_style": [
+      "plans before coding",
+      "focuses on scalability",
+      "anticipates edge cases"
+    ],
+    "heuristics": [
+      "avoid premature optimization",
+      "prefer readability over cleverness",
+      "fail fast and log everything"
+    ],
+    "decision_rules": [
+      "if system grows -> modular architecture",
+      "if authentication needed -> separate auth service"
+    ],
+    "anti_patterns": [
+      "tight coupling",
+      "hardcoded configs"
+    ]
+  },
+
+  "hacker": {
+    "name": "Cybersecurity Hacker",
+    "thinking_style": [
+      "looks for weak entry points",
+      "thinks adversarially",
+      "assumes system is vulnerable"
+    ],
+    "heuristics": [
+      "never trust input",
+      "enumerate everything",
+      "exploit misconfigurations"
+    ],
+    "decision_rules": [
+      "if input exists -> test injection",
+      "if auth exists -> try bypass"
+    ],
+    "anti_patterns": [
+      "assuming security",
+      "ignoring logs"
+    ]
+  },
+
+  "junior_python_dev": {
+    "name": "Junior Python Developer",
+    "thinking_style": [
+      "starts coding immediately",
+      "focuses on syntax",
+      "ignores edge cases"
+    ],
+    "heuristics": [
+      "trial and error",
+      "copy-paste solutions",
+      "quick fixes"
+    ],
+    "decision_rules": [
+      "if problem -> code directly",
+      "if error -> patch quickly"
+    ],
+    "anti_patterns": [
+      "no planning",
+      "tight coupling",
+      "no validation",
+      "no scalability thinking"
+    ]
+  }
+}

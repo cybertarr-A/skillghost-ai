@@ -1,5 +1,3 @@
-<img width="1536" height="1024" alt="ChatGPT Image Apr 28, 2026, 01_39_55 AM" src="https://github.com/user-attachments/assets/87708b76-fef5-49c7-90fc-92706fdd9ba2" />
-
 # 🧠 SkillGhost AI — Hybrid Memory Intelligence System
 
 SkillGhost AI is an advanced AI system designed with a **hybrid memory architecture** that combines:
